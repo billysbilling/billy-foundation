@@ -11,6 +11,8 @@ $billy-green: #63c7a3;
 // Uncomment to use rem-calc() in your settings
 // @import "foundation/functions";
 
+$include-open-sans: false;
+
 // $experimental: true;
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
@@ -43,7 +45,7 @@ $billy-green: #63c7a3;
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
