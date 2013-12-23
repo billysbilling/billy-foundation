@@ -3,28 +3,33 @@
 @import "settings";
 @import "foundation";
 
-table form,
-table button {
-	margin: 0;
+table {
+	border-spacing: 0;
+
+	form,
+	button {
+		margin: 0;
+	}
 }
 
 .top-bar {
 	margin-bottom: 44px;
-}
 
-.top-bar .button.primary {
-	color: #5C6666;
-	background: white;
-	outline: none;
-
-	&:hover {
-		color: #62b1d9;
+	.button.primary {
+		color: #5C6666;
 		background: white;
+		outline: none;
+
+		&:hover {
+			color: #62b1d9;
+			background: white;
+		}
+
+		&:active {
+			color: #95CBE5;
+			background: #47A0CC;
+		}
 	}
 
-	&:active {
-		color: #95CBE5;
-		background: #47A0CC;
-	}
 }
 
